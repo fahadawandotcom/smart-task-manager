@@ -250,5 +250,7 @@ def toggle_task(task_id):
     return redirect(url_for("dashboard"))
 
 
+init_db()
+
 if __name__ == "__main__":
     app.run(debug=True)
